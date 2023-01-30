@@ -1,0 +1,16 @@
+package lista1respostas.exerciciosdevetor;
+
+import java.util.Scanner;
+
+public class Main29resposta {
+    private static Scanner scanner = new Scanner(System.in);
+    public static void Main(String[] args){
+    	private int[] quant = new int[5] = {
+    			8,2,6,1,6
+    	};
+    	for(int x = 0,;x < quant.lenght(); x++ ) {
+    		System.out.println("Número: "+ quant[i]);
+    	}
+    }
+    	
+}

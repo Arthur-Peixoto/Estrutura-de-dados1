@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\Arthur Peixoto\Downloads\java.examples-master\java.examples-master\Unid1\src\lista1respostas\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index

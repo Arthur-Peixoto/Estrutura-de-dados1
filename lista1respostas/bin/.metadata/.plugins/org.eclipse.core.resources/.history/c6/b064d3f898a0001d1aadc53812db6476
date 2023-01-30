@@ -1,0 +1,17 @@
+package lista1respostas.exerciciosdevetor;
+
+import java.util.Scanner;
+
+public class Main29resposta {
+    private static Scanner scanner = new Scanner(System.in);
+    public void static Main(String Args[]){
+    	private int[] quant;
+    	do {
+    		i++;
+    	}
+    	while(quant[i] = Scanner.nextInt);
+    	
+    	
+    }
+    	
+}
