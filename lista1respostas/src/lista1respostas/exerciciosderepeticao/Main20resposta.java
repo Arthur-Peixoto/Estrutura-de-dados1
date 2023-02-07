@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main20resposta {
     private static Scanner scanner = new Scanner( System.in ); 
   
-    public static void Main(String Args[]){
+    public static void main(String Args[]){
         scanner.useLocale(Locale.US);
         System.out.print("Qual seu investimento inicial?"); 
         double invInicial = scanner.nextDouble();

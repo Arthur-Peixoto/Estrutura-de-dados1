@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main24resposta {
     private static Scanner scanner = new Scanner(System.in);
-    public static void Main(String[] Args){
+    public static void main(String[] Args){
         scanner.useLocale(Locale.US);
         System.out.println("Qual operação você gostaria de realizar\n1-potenciação\n2-raiz quadrada\n3-fatorial\n0-sair");
         int escolha = scanner.nextInt();

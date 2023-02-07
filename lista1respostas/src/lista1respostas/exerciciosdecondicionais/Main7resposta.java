@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main7resposta {
     private static Scanner scanner = new Scanner( System.in ); 
   
-    public static void Main(String Args[]){
+    public static void main(String Args[]){
         scanner.useLocale(Locale.US);
         System.out.println("Digite o numerador: ");
         double x = scanner.nextDouble();

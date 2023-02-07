@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main14resposta {
     private static Scanner scanner = new Scanner(System.in);
-    public static void Main(String Args[]){
+    public static void main(String Args[]){
         scanner.useLocale(Locale.US);
         System.out.println("Escreva as variáveis da equação de segundo grau \n a:");
         double a = scanner.nextDouble();

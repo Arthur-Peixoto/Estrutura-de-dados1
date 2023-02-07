@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main11resposta {
     private static Scanner scanner = new Scanner(System.in);
-    public static void Main(String Args[]){
+    public static void main(String Args[]){
         scanner.useLocale(Locale.US);
         int conta1 = 100, conta2 = 100;
         System.out.println("Quanto gostaria de transferir? ");

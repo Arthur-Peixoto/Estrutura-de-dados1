@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Main2resposta {
     private static Scanner scanner = new Scanner( System.in );
-    public static void Main (String Args[]){
+    public static void main (String Args[]){
         scanner.useLocale(Locale.US);
         int idade;
         float altura;

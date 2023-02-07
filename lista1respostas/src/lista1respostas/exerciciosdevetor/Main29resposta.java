@@ -1,31 +1,27 @@
 package lista1respostas.exerciciosdevetor;
 
-import java.util.Random;
-
 public class Main29resposta {
     public static void main(String[] args) {
-    	Random random = new Random();
-    	int z = 0;
-    	int[] quant = new int[5]; 
-    	int[] invert = new int[quant.length];
-    	for(int i = 0; i < quant.length; i++) {
-    		quant[i] = random.nextInt(10);
-    		System.out.println("num: "+ quant[i]);
-    		}
-    	for(int x = quant.length-1; x > -1; x--) {
-			invert[z] = quant[x];
-			System.out.println(invert[z] + " " + z);
-			z+=1;
-    	}
-    	for(int i = 0; i < quant.length;i++) {
-    		for(int x = quant.length-1; x > -1; x--) {
-    			if(invert[x]<quant[i]) {
-    				int variavel = quant[i];
-    				quant[i] = invert[x];
-    				invert[x] = variavel;
-    			}
-    		}
-    		System.out.println(quant[i]);;
-    	}
-    }
+        int[] arr = {8,2,1,5,6}; //Array com os valores a serem verificados
+        int index = 2; //Index do valor no qual devemos começar a verificação
+        int cont = index;
+        int value = 0; //Variável para salvar o valor de um index e passar para o outro
+
+        //Loop para verificar se o valor anterior ao selecionado é maior que ele
+        for(int i=0;i<index;i++){
+            //Caso seja maior entrará na condicional para trocá-los de posição
+            if(arr[cont] < arr[cont-1]){
+                value = arr[cont];
+                arr[cont] = arr[cont-1];
+                arr[cont-1] = value;
+                cont--;
+            }
+        }
+
+        //Loop para escrever o array após a mudança
+        for(int i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
+
+    }    
 }

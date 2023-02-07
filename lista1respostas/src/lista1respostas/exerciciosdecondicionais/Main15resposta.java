@@ -5,7 +5,7 @@ import java.util.Locale;
 
 public class Main15resposta {
     private static Scanner scanner = new Scanner(System.in);
-    public static void Main(String Args[]){
+    public static void main(String Args[]){
         scanner.useLocale(Locale.US);
         int num = scanner.nextInt();
         if(num > 1 && num < 5){

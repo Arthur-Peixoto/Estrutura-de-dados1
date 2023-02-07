@@ -7,7 +7,7 @@ public class Main8resposta {
 
     private static Scanner scanner = new Scanner(System.in);
 
-    public static void Main(String Args[]){
+    public static void main(String Args[]){
         scanner.useLocale(Locale.US);
         System.out.println("Informe sua altura: (em cm)");
         double altura = scanner.nextDouble();

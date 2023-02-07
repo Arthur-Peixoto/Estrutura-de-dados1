@@ -5,7 +5,7 @@ import java.util.Locale;
 
 public class Main23respostas {
     private static Scanner scanner = new Scanner(System.in);
-    public static void Main(String Args[]){
+    public static void main(String Args[]){
         scanner.useLocale(Locale.US);
         System.out.println("Fatorial de: ");
         int num = scanner.nextInt();

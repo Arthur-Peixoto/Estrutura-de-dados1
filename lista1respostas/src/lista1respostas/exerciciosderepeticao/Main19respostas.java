@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main19respostas {
     private static Scanner scanner = new Scanner(System.in); 
-    public static void Main(String Args[]){
+    public static void main(String Args[]){
         scanner.useLocale(Locale.US);
         int n = scanner.nextInt();
         for(int x = 0; x < 9; x++){

@@ -1,7 +1,7 @@
 package lista1respostas.exerciciosdeentradasaídaoperadores;
 
 public class Main1resposta{
-    public static void Main (String Args[]){
+    public static void main (String Args[]){
     int idade;
     float altura;
     char primeiraLetra;

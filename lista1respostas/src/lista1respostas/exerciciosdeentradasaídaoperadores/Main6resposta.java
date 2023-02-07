@@ -7,7 +7,7 @@ public class Main6resposta {
 
     private static Scanner scanner = new Scanner( System.in ); 
   
-    public static void Main(String Args[]){
+    public static void main(String Args[]){
         scanner.useLocale(Locale.US);
         double refri = 1.5;
         double pizza = 3.0;

@@ -7,7 +7,7 @@ public class Main17resposta{
     
     private static Scanner scanner = new Scanner(System.in);
 
-    public static void Main(String Args[]){
+    public static void main(String Args[]){
         scanner.useLocale(Locale.US);
         int inicio = scanner.nextInt();
         int fim = scanner.nextInt();
