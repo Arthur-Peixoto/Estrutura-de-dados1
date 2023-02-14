@@ -2,8 +2,8 @@ package lista1respostas.exerciciosgenerics;
 
 import java.util.Scanner;
 
-public class Main38respostas {
-	private static Scanner scanner = new Scanner(System.in);
+public class Main39respostas {
+private static Scanner scanner = new Scanner(System.in);
 	
 	private static <E> void exibirObjeto(E objeto) {
 			System.out.println(objeto);
