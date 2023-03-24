@@ -5,7 +5,7 @@ import lista2respostas.AtividadesdePilha.myStackArray;
 
 public class Main01respostas {
 
-		public static void main(String[] args) { 
+		public static void main(String[] args) throws Exception { 
 			int retorno;
 			
 			myInterfaceStack<Integer> pilha1 = new myStackArray<Integer>(3);

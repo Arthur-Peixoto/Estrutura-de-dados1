@@ -11,7 +11,7 @@ public class myStackArray<T> implements myInterfaceStack<T> {
 		this.array = new Object[size];
 	}
 	
-	public void push(T valor){
+	public void push(T valor) throws Exception{
 		System.out.println("\nEmpilhar..\n");
 		
 		if(top == size-1) {
@@ -24,7 +24,7 @@ public class myStackArray<T> implements myInterfaceStack<T> {
 	}
 
 	@SuppressWarnings("unchecked")
-	public T pop() {
+	public T pop() throws Exception {
 		System.out.println("\nDesemplilhando...\n");
 		
 		T retorno;
@@ -39,7 +39,7 @@ public class myStackArray<T> implements myInterfaceStack<T> {
 	}
 
 	@SuppressWarnings("unchecked")
-	public T peek() {
+	public T peek() throws Exception {
 		System.out.println("\nConsultar o topo...\n");
 		
 		T retorno;
