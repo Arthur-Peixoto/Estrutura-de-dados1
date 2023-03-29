@@ -14,7 +14,7 @@ public class mySimpleList<T> implements myInterfaceList<T> {
 	
 	private Node head;
 	private Node tail;
-	private int size;
+	int size;
 	
 	public mySimpleList() {
 		head = null;

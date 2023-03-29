@@ -1,9 +1,10 @@
 package lista2respostas.AtividadesdeLista;
 
-public class Main03respostas {
+public class Main04respostas {
 	public static void main(String[] args) {
-		myInterfaceList<Integer> listinha = new mySimpleList<Integer>();
-			
+
+		myInterfaceList<Integer> listinha = new myDoubleList<Integer>();
+		
 		listinha.addFirst(25);
 		listinha.addFirst(65);
 		listinha.addLast(76);
@@ -15,7 +16,7 @@ public class Main03respostas {
 		System.out.println("pegando o primeiro:" + listinha.peekFirst());
 		
 		System.out.println("pegando o último:" + listinha.peekLast());
-	
+
 		System.out.println("Removendo específico: ");
 		listinha.remove(65);
 		listinha.show();
@@ -31,6 +32,8 @@ public class Main03respostas {
 		System.out.println("pegando o primeiro: " + listinha.peekFirst());
 		System.out.println("pegando o último: " + listinha.peekLast());
 		
-		System.out.println("procurando" + listinha.search(76));
+		listinha.showReverse();
+		
+		System.out.println("procurando" + listinha.search(76));	
 	}
 }
