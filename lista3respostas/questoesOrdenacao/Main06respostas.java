@@ -8,8 +8,6 @@ public class Main06respostas {
 			vetor[i] = (int)(Math.random() * 10);
 			System.out.println(vetor[i] + " ");
 		}
-		long inicio = System.currentTimeMillis();
-		long fim;
 		
 		int auxiliar;
 		
@@ -22,9 +20,6 @@ public class Main06respostas {
 				}
 			}
 		}
-		
-		fim = System.currentTimeMillis();
-		System.out.println("Tempo decorrido: " + (fim - inicio));
 		
 		for(int i =0; i < vetor.length; i++) {
 			System.out.println(vetor[i] + " ");
