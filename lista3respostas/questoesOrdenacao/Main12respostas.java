@@ -50,10 +50,10 @@ public class Main12respostas {
 		
 		for(int i = 0; i < vetor.length; i++) {
 			for(int j = 0; j < vetor.length; j++) {
-				if(vetor[i]< vetor[j]) {
+				if(vetor[j]< vetor[j+1]) {
 					auxiliar = vetor[j];
-					vetor[j] = vetor[i];
-					vetor[i] = auxiliar;
+					vetor[j] = vetor[j+1];
+					vetor[j+1] = auxiliar;
 				}
 			}
 		}
@@ -126,7 +126,7 @@ public class Main12respostas {
 		while(x < vetor.length) {
 			x = x*3+1;
 		}
-		x = (int) Math.floorDiv(h, 3);
+		x = (int) Math.floorDiv(x, 3);
 		
 		int elemento, auxiliar;
 		while(x > 0) {
